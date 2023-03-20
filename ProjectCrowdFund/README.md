@@ -1,13 +1,7 @@
-# Sample Hardhat Project
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
+Reproducing results requires a basic hardhat environment
 
-Try running some of the following tasks:
-
-```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat run scripts/deploy.js
-```
+Tests can be run with a command:
+    npx hardhat test
+Simulation using hardhats built in timestamp
+    npx hardhat run ./scripts/experiment.js
