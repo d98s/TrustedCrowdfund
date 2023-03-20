@@ -1,13 +1,12 @@
-# Sample Hardhat Project
+# Trusted Crowedfunding launchpad
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
+This project demonstrates the use of a smart contract to create contracts for crowdfunding.
 
-Try running some of the following tasks:
+Before running the test a basic hardhat environment should be set up.
 
 ```shell
-npx hardhat help
+-Running the tests
 npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat run scripts/deploy.js
+-Running the simulatio using hardhat's timestamp
+npx hardhat run ./scripts/experiment.js
 ```
